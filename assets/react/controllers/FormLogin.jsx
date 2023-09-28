@@ -20,7 +20,7 @@ const LoginForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4 max-w-sm mt-80 w-8/12 m-auto">
+    <form onSubmit={handleSubmit} className="space-y-4 max-w-sm mt-64 w-8/12 m-auto">
       <h1 className="text-2xl font-bold">Connexion</h1>
       <div className="space-y-4">
         <label className="block text-sm font-medium text-gray-700">
@@ -57,6 +57,7 @@ const LoginForm = () => {
         Connexion
       </button>
     </form>
+    
   );
 };
 
