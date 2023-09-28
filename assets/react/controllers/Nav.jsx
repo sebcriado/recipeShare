@@ -4,7 +4,7 @@ export default function (){
     let Links = [
         {name: "Accueil", href: "/"},
         {name: "Recettes", href: "/recipes"},
-        {name: "Connexion", href: "/login"},
+        {name: "Connexion", href: "/connexion"},
     ]
     return (
     <div className="w-full fixed top-0 left-0">
